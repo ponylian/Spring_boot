@@ -10,5 +10,8 @@ public class HelloController {
         return "helel--dddd--";
 
     }
-
+    @RequestMapping("/get")
+    public String get(){
+        return "ddhd";
+    }
 }
